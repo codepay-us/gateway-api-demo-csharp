@@ -47,6 +47,7 @@ namespace APITestDemo
             try{
                 var httpClient = new HttpClient();
                 httpClient.DefaultRequestHeaders.Accept.Clear();
+                httpClient.DefaultRequestHeaders.Add("User-Agent", "CodePay Gateway API C# client");
                 httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 var response = httpClient.PostAsync(gatewayUrl, new StringContent(jsonString, Encoding.UTF8, "application/json")).Result;
                 if (response.IsSuccessStatusCode){
