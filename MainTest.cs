@@ -11,10 +11,10 @@ namespace APITestDemo
         static void Main(string[] args)
         {
             // 1. Global parameter settings
-            string appRsaPrivateKeyPem = "MIIEowIBAAKCAQEAkkZX3ziS8Zq2ksiYcNHobuohWieC8nyMF6PQ5O5SBZbMR7YX15NjyvOkqWoK4C450r6Oi4w2UyKFpRDO2qRF7EpyVLLRJhfC0uiXw302lz7xeuw2U9uODEUjde0f05JeGyU79O9xDd/OHvO4DcoYtTdDfH2OfuZ8686nFsbl768IYk51jfVi5txg7e+R8OR41GULVCV97Dz0PfHlqA835xvu9mF2yDYQBS2ehbP59dWoC+NwYQ+/kTSoRzqiTdlIUbU79KWlaQVchh79adEZx1lEPn4iBIt+i1uCrjsfPLIT2A3hT/20uGFHKJroVsWO9zA+vvh69u3ur6T6l8lc8QIDAQABAoIBABNa+4WuFsOhlUcXBBTpsbf7gy5KzCkKEf+OzbV9U50ptx5GGiGMf0f7tW41efrwIvagAHy2sPmPN9//uV91HUuHDlnmz4Ya3szJuktD5lVdHtcFKqsuAj3daDPSjMOSOqGc67IdfPg5BS1TUqeAdoSEK4ntk013clBBqBp7dzGf48yrWop+XcmBLkET32w9UG52/jSPrJs5XLNw/xZF6Z9yA0mOgsfr0lI9lyZ5uoDIdDl2tARtLpINU0b1rTaoPGol+3zCOGMWQ75+i5984yyEHScNlDOM8kc1oUC1p0NbRFizKAki9+Ky7fNW4FCST+7kJgTAH1Xm0F7V3ZMHggECgYEA4W5Fu9lxEWUAHpA72d7R+T1r+CH7oSdysbVt1i/D1GwSKhKPULPDts1eulwK8KJZw8R6Xy6IKbypq6CJDEFmccVB5InY9WyrhEsnm0AVzOwTajVC3cpUfR8WzuOIWe6zAcAtbwfDxoCpHaMG80pyOtKigvwDYg7vfhFClagT9SUCgYEAphw06TzBeeUUPKGnbH7NoyOBrNUtm0QkPW6bITQh07xZCfrpZpk2D5exVHS75ok93o3vwQvDe2cVsWzORlV/gAr2ezuif6bmZVCgLVIZr8Ri2bTXRhVW85pSn0twaO907KmahUjYmfn/dsxIv+2L/iTnzXJ7HeyJHkR1ZKx9DN0CgYAvqiJCetJmbCWfUL3m7i8VdQA8QeszguTEYGkt7YGJi6Q3kx8MYEYUg83wt390q88xDn0VXQBbWtHBQTtZBQcFLUEmcmMWWXjWixF/yQgTASOFxGc0ABDnN8iZzBBLe6YLy7ePj2O8t/2KD6tri6UlfN3xthl9BU1sKXgbrqMxpQKBgF9YvX5Lo3rGZVFQMPvz5TGJRfvg+aav/GVOwbjTZb9V034JCkQcGY3lsqIZx2lSybKfokka6YBB8Y/ANr7kgKUMpeKinmnLcWAiYW7iO2BKx7rTNOZDhX+ay2YoNUPmfyUBTXLIF5x6hYq5Q+D3B24/3NZuqgDJLwOyo/e/kp/5AoGBAN3US6TPfTU513gJGwtV6SFAgu+BDvWkstWcbo0oLw3h8jRVisDafKRinGrN6ls0ByzFeKUh5GDuw9/fqZg3HXAwqRmTk4J1TTTklgE1zRYLyPAMX5CdJvJDRkk+K8Ihu8hdPGmakhI8nlnj+1xk+ieUxAdUAUge8/yhashOS+ZI";
-            string gatewayRsaPublicKeyPem = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl838XBDyDxsR3ChhYPKTHo8pevqDb9TpjjnaeNpSOWvCsIABH3VWxYYErWI167oA1C/QukoBWKxK8TR4bz5doJQm0BKJ99fPK3Zx/H7f++UBjd97rG87bPFq1Q3pJs9BRqiHJwdZOegWwwfq3OPjD2m+sntyOcz2p6AhQ38l5q0bOPYjMWZ2k61e5x+CbJdfKxFCnICLzqe8A8oz1h1wGTdUNCZ/nyFZ2KwTUVwarPdgj6dJSV029dfjvcY9o3280nq+gKh5ZeAhpJSL0r0qk9mph7a9xY1oOi1jv3OGANIQLBOoN0GwibxUhmOJ3VnNv+9+e2D2ovO9i5TTw7TwiQIDAQAB";
-            string gatewayUrl = "https://gw.codepay.us/api/entry";
-            string appId = "wz6012822ca2f1as78";
+            string appRsaPrivateKeyPem = "<YOUR APP RSA PRIVATE KEY>";
+            string gatewayRsaPublicKeyPem = "<YOUR GATEWAY RSA PUBLIC KEY>";
+            string gatewayUrl = "<YOUR GATEWAY URL>";
+            string appId = "<YOUR APP ID>";
 
             // 2. Set parameters
             Dictionary<string, string> parameters = new Dictionary<string, string>();
